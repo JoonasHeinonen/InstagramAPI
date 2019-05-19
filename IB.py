@@ -16,9 +16,7 @@ class InstagramBot:
         driver = self.driver
         driver.get("https://www.instagram.com")
         time.sleep(2)
-
-
-        # "<a href="/accounts/login/?source=auth_switcher">Kirjaudu sisään</a>"
+        
         # "//a[@href'accounts/login']"
         # "//input[@name='username']"
         # "//input[@name='password']"
